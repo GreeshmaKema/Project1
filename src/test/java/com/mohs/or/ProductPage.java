@@ -12,6 +12,8 @@ public class ProductPage {
 	public static By btnAddToWishList = By.xpath("//input[@id='add-to-wishlist-button-14']");
 	public static By textChainProduct = By.xpath("//h1[@itemprop='name']");
 	public static By lnkWishList = By.xpath("//a[normalize-space()='wishlist']");
+	public static By imgprod = By.xpath("//img[@title='Show details for Blue Jeans']");
+	public static By textprod = By.xpath("//h1[@itemprop='name']");
 	
 }
 
