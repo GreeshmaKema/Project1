@@ -145,6 +145,23 @@ public class CartFunctions {
 			aDriver.click(HomePage.btnSubscribe, "subscribe button");
 			
 		}
+	//go to sitemap
+		public void siteMap(String search) throws Exception
+		{
+		StartBrowser.childTest = StartBrowser.parentTest.createNode("click sitemap and search for a prod");
+		aDriver.navigateToApplication("http://demowebshop.tricentis.com/");
+		aDriver.click(HomePage.lnkSitemap, "Sitemap link");
+		aDriver.click(HomePage.lnkSearch, "search btn");
+		aDriver.type(HomePage.txtSearchKeyword, search, "search keyword textbox");
+		aDriver.click(HomePage.btnsearch, "search button");
+		}
+		public String prodName() throws Exception
+		{
+			aDriver.click(ProductPage.imgprod, "prod image");
+			StartBrowser.childTest = StartBrowser.parentTest.createNode("Get product Name from search");
+		    String prodNamejeans=aDriver.getText(ProductPage.textprod, "Name of the product");
+		    return prodNamejeans;
+		}
 		
 }		
 
