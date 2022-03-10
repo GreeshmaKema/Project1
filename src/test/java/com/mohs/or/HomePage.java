@@ -29,4 +29,9 @@ public class HomePage {
 	//To subscribe
 	public static By lnkYoutube = By.xpath("//a[@href=\"http://www.youtube.com/user/nopCommerce\"]");
 	public static By btnSubscribe = By.xpath("//a[@href=\"http://www.youtube.com/user/nopCommerce\"]");
+	//To goto sitemap
+	public static By lnkSitemap = By.xpath("//a[normalize-space()='Sitemap']");
+	public static By lnkSearch = By.xpath("//div[@class='entity-body']//a[normalize-space()='Search']");
+	public static By txtSearchKeyword = By.xpath("//input[@id='Q']");
+	public static By btnsearch = By.xpath("//input[@class='button-1 search-button']");
 }
