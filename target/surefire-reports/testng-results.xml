@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17756" started-at="2022-02-04T01:06:18 IST" finished-at="2022-02-04T01:06:36 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17756" started-at="2022-02-04T01:06:18 IST" finished-at="2022-02-04T01:06:36 IST">
+      <class name="com.mohs.scripts.Login_Logout">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.mohs.scripts.Login_Logout@5e853265]" name="generateReport" is-config="true" duration-ms="477" started-at="2022-02-04T01:06:18 IST" finished-at="2022-02-04T01:06:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.Login_Logout@5e853265]" name="beforeClass" is-config="true" duration-ms="4803" started-at="2022-02-04T01:06:19 IST" finished-at="2022-02-04T01:06:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.Login_Logout@5e853265]" name="methodName" is-config="true" duration-ms="11" started-at="2022-02-04T01:06:24 IST" finished-at="2022-02-04T01:06:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mohs.scripts.Login_Logout.Login_LogoutTestCase() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="Login_LogoutTestCase()[pri:0, instance:com.mohs.scripts.Login_Logout@5e853265]" name="Login_LogoutTestCase" duration-ms="11027" started-at="2022-02-04T01:06:24 IST" finished-at="2022-02-04T01:06:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_LogoutTestCase -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.Login_Logout@5e853265]" name="afterClass" is-config="true" duration-ms="1329" started-at="2022-02-04T01:06:35 IST" finished-at="2022-02-04T01:06:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.mohs.scripts.Login_Logout -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
