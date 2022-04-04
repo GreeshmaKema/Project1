@@ -32,11 +32,16 @@ public class HomePage {
 	//To subscribe
 	public static By lnkYoutube = By.xpath("//a[@href=\"http://www.youtube.com/user/nopCommerce\"]");
 	public static By btnSubscribe = By.xpath("//a[@href=\"http://www.youtube.com/user/nopCommerce\"]");
+<<<<<<< HEAD
     //To goto sitemap
+=======
+	//To goto sitemap
+>>>>>>> 6df1a4ea30de7cc36bb085391a3cd15ad049e6be
 	public static By lnkSitemap = By.xpath("//a[normalize-space()='Sitemap']");
 	public static By lnkSearch = By.xpath("//div[@class='entity-body']//a[normalize-space()='Search']");
 	public static By txtSearchKeyword = By.xpath("//input[@id='Q']");
 	public static By btnsearch = By.xpath("//input[@class='button-1 search-button']");
+<<<<<<< HEAD
 	//to goto shipping&returns
 	public static By lnkShippingandReturns = By.xpath("//a[normalize-space()='Shipping & Returns']");
 	public static By lnkShpng = By.xpath("//h1[normalize-space()='Shipping & Returns']");
@@ -68,4 +73,6 @@ public class HomePage {
 	public static By btnConfirm = By.xpath("//input[@value='Confirm']");
 	//public static By lnkOrderDetails = By.xpath("//a[normalize-space()='Click here for order details.']");
 	public static By classOrderconfrmtn = By.xpath("//strong[normalize-space()='Your order has been successfully processed!']");
+=======
+>>>>>>> 6df1a4ea30de7cc36bb085391a3cd15ad049e6be
 }
