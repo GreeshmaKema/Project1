@@ -5,11 +5,12 @@ import org.testng.annotations.Test;
 import com.mohs.config.StartBrowser;
 import com.mohs.reuse.CartFunctions;
 
-public class RegisterPage extends StartBrowser {
+public class ShoppingCart extends StartBrowser {
   @Test
-  public void RegisterPageTestCase() throws Exception {
+  public void ShoppingCartTestCase() throws Exception {
 	  CartFunctions cfs = new CartFunctions();
-	  cfs.Register("Greeshma", "Kema", "greeshmakema@hotmail.com", "Test@444", "Test@444");
+	  cfs.shoppingCart();
+	  String textofshoppingCart = cfs.textofshoppingCart();
 	  Thread.sleep(5000);
   }
 }
