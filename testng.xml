@@ -5,6 +5,7 @@
 <classes>
     <class name="com.mohs.scripts.LoginAndOrder"/>
    <class name="com.mohs.scripts.ShoppingCart"/>
+    <class name="com.mohs.scripts.LoginPage"/>
     </classes>
 </test>
   <test thread-count="5" name="Test">
