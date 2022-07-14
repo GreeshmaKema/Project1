@@ -1,4 +1,4 @@
-package com.mohs.scripts;
+/*package com.mohs.scripts;
 
 import org.testng.annotations.Test;
 
@@ -12,4 +12,4 @@ public class RegisterPage extends StartBrowser {
 	  cfs.Register("Greeshma", "Kema", "greeshmakema@hotmail.com", "Test@444", "Test@444");
 	  Thread.sleep(5000);
   }
-}
+}*/

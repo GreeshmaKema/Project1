@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="18" total="37" passed="19">
+<testng-results skipped="0" failed="0" ignored="17" total="35" passed="18">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="408482" started-at="2022-03-29T12:53:13 IST" finished-at="2022-03-29T13:00:01 IST">
+  <suite name="Suite" duration-ms="285562" started-at="2022-05-13T17:25:04 IST" finished-at="2022-05-13T17:29:49 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="408482" started-at="2022-03-29T12:53:13 IST" finished-at="2022-03-29T13:00:01 IST">
+    <test name="Test" duration-ms="285562" started-at="2022-05-13T17:25:04 IST" finished-at="2022-05-13T17:29:49 IST">
       <class name="com.mohs.scripts.Blogbtn">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.Blogbtn@1f7030a6]" name="beforeClass" is-config="true" duration-ms="17275" started-at="2022-03-29T12:55:04 IST" finished-at="2022-03-29T12:55:22 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.Blogbtn@4d95d2a2]" name="beforeClass" is-config="true" duration-ms="2540" started-at="2022-05-13T17:25:54 IST" finished-at="2022-05-13T17:25:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.Blogbtn@1f7030a6]" name="methodName" is-config="true" duration-ms="1" started-at="2022-03-29T12:55:22 IST" finished-at="2022-03-29T12:55:22 IST">
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.Blogbtn@4d95d2a2]" name="methodName" is-config="true" duration-ms="0" started-at="2022-05-13T17:25:57 IST" finished-at="2022-05-13T17:25:57 IST">
           <params>
             <param index="0">
               <value>
@@ -22,46 +22,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method status="PASS" signature="BlogbtnTestCase()[pri:0, instance:com.mohs.scripts.Blogbtn@1f7030a6]" name="BlogbtnTestCase" duration-ms="11305" started-at="2022-03-29T12:55:22 IST" finished-at="2022-03-29T12:55:33 IST">
+        <test-method status="PASS" signature="BlogbtnTestCase()[pri:0, instance:com.mohs.scripts.Blogbtn@4d95d2a2]" name="BlogbtnTestCase" duration-ms="10721" started-at="2022-05-13T17:25:57 IST" finished-at="2022-05-13T17:26:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BlogbtnTestCase -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.Blogbtn@1f7030a6]" name="afterClass" is-config="true" duration-ms="822" started-at="2022-03-29T12:55:33 IST" finished-at="2022-03-29T12:55:34 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.Blogbtn@4d95d2a2]" name="afterClass" is-config="true" duration-ms="1239" started-at="2022-05-13T17:26:07 IST" finished-at="2022-05-13T17:26:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.mohs.scripts.Blogbtn -->
-      <class name="com.mohs.scripts.RegisterPage">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.RegisterPage@1786dec2]" name="beforeClass" is-config="true" duration-ms="2262" started-at="2022-03-29T12:58:39 IST" finished-at="2022-03-29T12:58:41 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="RegisterPageTestCase()[pri:0, instance:com.mohs.scripts.RegisterPage@1786dec2]" name="RegisterPageTestCase" duration-ms="11445" started-at="2022-03-29T12:58:41 IST" finished-at="2022-03-29T12:58:53 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RegisterPageTestCase -->
-        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.RegisterPage@1786dec2]" name="methodName" is-config="true" duration-ms="0" started-at="2022-03-29T12:58:41 IST" finished-at="2022-03-29T12:58:41 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mohs.scripts.RegisterPage.RegisterPageTestCase() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodName -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.RegisterPage@1786dec2]" name="afterClass" is-config="true" duration-ms="790" started-at="2022-03-29T12:58:53 IST" finished-at="2022-03-29T12:58:54 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.mohs.scripts.RegisterPage -->
       <class name="com.mohs.scripts.Sitemap_searchprod">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.Sitemap_searchprod@6acdbdf5]" name="beforeClass" is-config="true" duration-ms="1831" started-at="2022-03-29T12:59:19 IST" finished-at="2022-03-29T12:59:21 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.Sitemap_searchprod@2d8f65a4]" name="beforeClass" is-config="true" duration-ms="1940" started-at="2022-05-13T17:29:17 IST" finished-at="2022-05-13T17:29:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.Sitemap_searchprod@6acdbdf5]" name="methodName" is-config="true" duration-ms="1" started-at="2022-03-29T12:59:21 IST" finished-at="2022-03-29T12:59:21 IST">
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.Sitemap_searchprod@2d8f65a4]" name="methodName" is-config="true" duration-ms="1" started-at="2022-05-13T17:29:19 IST" finished-at="2022-05-13T17:29:19 IST">
           <params>
             <param index="0">
               <value>
@@ -72,21 +47,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method status="PASS" signature="Sitemap_searchprodTestCase()[pri:0, instance:com.mohs.scripts.Sitemap_searchprod@6acdbdf5]" name="Sitemap_searchprodTestCase" duration-ms="17284" started-at="2022-03-29T12:59:21 IST" finished-at="2022-03-29T12:59:38 IST">
+        <test-method status="PASS" signature="Sitemap_searchprodTestCase()[pri:0, instance:com.mohs.scripts.Sitemap_searchprod@2d8f65a4]" name="Sitemap_searchprodTestCase" duration-ms="13165" started-at="2022-05-13T17:29:19 IST" finished-at="2022-05-13T17:29:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Sitemap_searchprodTestCase -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.Sitemap_searchprod@6acdbdf5]" name="afterClass" is-config="true" duration-ms="775" started-at="2022-03-29T12:59:38 IST" finished-at="2022-03-29T12:59:39 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.Sitemap_searchprod@2d8f65a4]" name="afterClass" is-config="true" duration-ms="893" started-at="2022-05-13T17:29:32 IST" finished-at="2022-05-13T17:29:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.mohs.scripts.Sitemap_searchprod -->
       <class name="com.mohs.scripts.AddProductToCart">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.AddProductToCart@184f6be2]" name="beforeClass" is-config="true" duration-ms="16002" started-at="2022-03-29T12:54:01 IST" finished-at="2022-03-29T12:54:17 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.AddProductToCart@167fdd33]" name="beforeClass" is-config="true" duration-ms="1915" started-at="2022-05-13T17:25:24 IST" finished-at="2022-05-13T17:25:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.AddProductToCart@184f6be2]" name="methodName" is-config="true" duration-ms="0" started-at="2022-03-29T12:54:17 IST" finished-at="2022-03-29T12:54:17 IST">
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.AddProductToCart@167fdd33]" name="methodName" is-config="true" duration-ms="1" started-at="2022-05-13T17:25:26 IST" finished-at="2022-05-13T17:25:26 IST">
           <params>
             <param index="0">
               <value>
@@ -97,21 +72,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method status="PASS" signature="AddProductToCartTestCase()[pri:0, instance:com.mohs.scripts.AddProductToCart@184f6be2]" name="AddProductToCartTestCase" duration-ms="14894" started-at="2022-03-29T12:54:17 IST" finished-at="2022-03-29T12:54:32 IST">
+        <test-method status="PASS" signature="AddProductToCartTestCase()[pri:0, instance:com.mohs.scripts.AddProductToCart@167fdd33]" name="AddProductToCartTestCase" duration-ms="12031" started-at="2022-05-13T17:25:26 IST" finished-at="2022-05-13T17:25:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddProductToCartTestCase -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.AddProductToCart@184f6be2]" name="afterClass" is-config="true" duration-ms="1009" started-at="2022-03-29T12:54:32 IST" finished-at="2022-03-29T12:54:33 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.AddProductToCart@167fdd33]" name="afterClass" is-config="true" duration-ms="879" started-at="2022-05-13T17:25:38 IST" finished-at="2022-05-13T17:25:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.mohs.scripts.AddProductToCart -->
       <class name="com.mohs.scripts.NewProducts">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.NewProducts@1e965684]" name="beforeClass" is-config="true" duration-ms="2133" started-at="2022-03-29T12:57:34 IST" finished-at="2022-03-29T12:57:36 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.NewProducts@17579e0f]" name="beforeClass" is-config="true" duration-ms="2072" started-at="2022-05-13T17:27:50 IST" finished-at="2022-05-13T17:27:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.NewProducts@1e965684]" name="methodName" is-config="true" duration-ms="0" started-at="2022-03-29T12:57:36 IST" finished-at="2022-03-29T12:57:36 IST">
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.NewProducts@17579e0f]" name="methodName" is-config="true" duration-ms="0" started-at="2022-05-13T17:27:52 IST" finished-at="2022-05-13T17:27:52 IST">
           <params>
             <param index="0">
               <value>
@@ -122,21 +97,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method status="PASS" signature="NewProductsTestCase()[pri:0, instance:com.mohs.scripts.NewProducts@1e965684]" name="NewProductsTestCase" duration-ms="11956" started-at="2022-03-29T12:57:36 IST" finished-at="2022-03-29T12:57:48 IST">
+        <test-method status="PASS" signature="NewProductsTestCase()[pri:0, instance:com.mohs.scripts.NewProducts@17579e0f]" name="NewProductsTestCase" duration-ms="10716" started-at="2022-05-13T17:27:52 IST" finished-at="2022-05-13T17:28:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NewProductsTestCase -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.NewProducts@1e965684]" name="afterClass" is-config="true" duration-ms="893" started-at="2022-03-29T12:57:48 IST" finished-at="2022-03-29T12:57:49 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.NewProducts@17579e0f]" name="afterClass" is-config="true" duration-ms="929" started-at="2022-05-13T17:28:03 IST" finished-at="2022-05-13T17:28:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.mohs.scripts.NewProducts -->
       <class name="com.mohs.scripts.LoginAndOrder">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.LoginAndOrder@5f282abb]" name="beforeClass" is-config="true" duration-ms="2108" started-at="2022-03-29T12:56:57 IST" finished-at="2022-03-29T12:56:59 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.LoginAndOrder@6acdbdf5]" name="beforeClass" is-config="true" duration-ms="2011" started-at="2022-05-13T17:27:15 IST" finished-at="2022-05-13T17:27:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.LoginAndOrder@5f282abb]" name="methodName" is-config="true" duration-ms="1" started-at="2022-03-29T12:56:59 IST" finished-at="2022-03-29T12:56:59 IST">
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.LoginAndOrder@6acdbdf5]" name="methodName" is-config="true" duration-ms="0" started-at="2022-05-13T17:27:17 IST" finished-at="2022-05-13T17:27:17 IST">
           <params>
             <param index="0">
               <value>
@@ -147,21 +122,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method status="PASS" signature="LoginAndOrderTestCase()[pri:0, instance:com.mohs.scripts.LoginAndOrder@5f282abb]" name="LoginAndOrderTestCase" duration-ms="19648" started-at="2022-03-29T12:56:59 IST" finished-at="2022-03-29T12:57:19 IST">
+        <test-method status="PASS" signature="LoginAndOrderTestCase()[pri:0, instance:com.mohs.scripts.LoginAndOrder@6acdbdf5]" name="LoginAndOrderTestCase" duration-ms="18502" started-at="2022-05-13T17:27:17 IST" finished-at="2022-05-13T17:27:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginAndOrderTestCase -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.LoginAndOrder@5f282abb]" name="afterClass" is-config="true" duration-ms="895" started-at="2022-03-29T12:57:19 IST" finished-at="2022-03-29T12:57:19 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.LoginAndOrder@6acdbdf5]" name="afterClass" is-config="true" duration-ms="923" started-at="2022-05-13T17:27:36 IST" finished-at="2022-05-13T17:27:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.mohs.scripts.LoginAndOrder -->
       <class name="com.mohs.scripts.ShoppingCart">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.ShoppingCart@15d0c81b]" name="beforeClass" is-config="true" duration-ms="1852" started-at="2022-03-29T12:59:07 IST" finished-at="2022-03-29T12:59:08 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.ShoppingCart@27a8c74e]" name="beforeClass" is-config="true" duration-ms="2128" started-at="2022-05-13T17:29:05 IST" finished-at="2022-05-13T17:29:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.ShoppingCart@15d0c81b]" name="methodName" is-config="true" duration-ms="1" started-at="2022-03-29T12:59:08 IST" finished-at="2022-03-29T12:59:08 IST">
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.ShoppingCart@27a8c74e]" name="methodName" is-config="true" duration-ms="2" started-at="2022-05-13T17:29:07 IST" finished-at="2022-05-13T17:29:07 IST">
           <params>
             <param index="0">
               <value>
@@ -172,50 +147,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method status="PASS" signature="ShoppingCartTestCase()[pri:0, instance:com.mohs.scripts.ShoppingCart@15d0c81b]" name="ShoppingCartTestCase" duration-ms="9685" started-at="2022-03-29T12:59:08 IST" finished-at="2022-03-29T12:59:18 IST">
+        <test-method status="PASS" signature="ShoppingCartTestCase()[pri:0, instance:com.mohs.scripts.ShoppingCart@27a8c74e]" name="ShoppingCartTestCase" duration-ms="8738" started-at="2022-05-13T17:29:07 IST" finished-at="2022-05-13T17:29:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShoppingCartTestCase -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.ShoppingCart@15d0c81b]" name="afterClass" is-config="true" duration-ms="801" started-at="2022-03-29T12:59:18 IST" finished-at="2022-03-29T12:59:19 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.ShoppingCart@27a8c74e]" name="afterClass" is-config="true" duration-ms="807" started-at="2022-05-13T17:29:16 IST" finished-at="2022-05-13T17:29:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.mohs.scripts.ShoppingCart -->
-      <class name="com.mohs.scripts.Contactus">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.Contactus@394e1a0f]" name="beforeClass" is-config="true" duration-ms="1945" started-at="2022-03-29T12:56:29 IST" finished-at="2022-03-29T12:56:31 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.Contactus@394e1a0f]" name="methodName" is-config="true" duration-ms="1" started-at="2022-03-29T12:56:31 IST" finished-at="2022-03-29T12:56:31 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mohs.scripts.Contactus.ContactusTestCase() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodName -->
-        <test-method status="PASS" signature="ContactusTestCase()[pri:0, instance:com.mohs.scripts.Contactus@394e1a0f]" name="ContactusTestCase" duration-ms="11809" started-at="2022-03-29T12:56:31 IST" finished-at="2022-03-29T12:56:43 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ContactusTestCase -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.Contactus@394e1a0f]" name="afterClass" is-config="true" duration-ms="772" started-at="2022-03-29T12:56:43 IST" finished-at="2022-03-29T12:56:44 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.mohs.scripts.Contactus -->
       <class name="com.mohs.scripts.Recently_viewed_button2">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.Recently_viewed_button2@3b088d51]" name="beforeClass" is-config="true" duration-ms="1958" started-at="2022-03-29T12:58:22 IST" finished-at="2022-03-29T12:58:24 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.Recently_viewed_button2@2833cc44]" name="beforeClass" is-config="true" duration-ms="1791" started-at="2022-05-13T17:28:35 IST" finished-at="2022-05-13T17:28:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="Recently_viewed_button2TestCase()[pri:0, instance:com.mohs.scripts.Recently_viewed_button2@3b088d51]" name="Recently_viewed_button2TestCase" duration-ms="14711" started-at="2022-03-29T12:58:24 IST" finished-at="2022-03-29T12:58:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Recently_viewed_button2TestCase -->
-        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.Recently_viewed_button2@3b088d51]" name="methodName" is-config="true" duration-ms="0" started-at="2022-03-29T12:58:24 IST" finished-at="2022-03-29T12:58:24 IST">
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.Recently_viewed_button2@2833cc44]" name="methodName" is-config="true" duration-ms="1" started-at="2022-05-13T17:28:37 IST" finished-at="2022-05-13T17:28:37 IST">
           <params>
             <param index="0">
               <value>
@@ -226,17 +172,46 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.Recently_viewed_button2@3b088d51]" name="afterClass" is-config="true" duration-ms="780" started-at="2022-03-29T12:58:38 IST" finished-at="2022-03-29T12:58:39 IST">
+        <test-method status="PASS" signature="Recently_viewed_button2TestCase()[pri:0, instance:com.mohs.scripts.Recently_viewed_button2@2833cc44]" name="Recently_viewed_button2TestCase" duration-ms="15849" started-at="2022-05-13T17:28:37 IST" finished-at="2022-05-13T17:28:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Recently_viewed_button2TestCase -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.Recently_viewed_button2@2833cc44]" name="afterClass" is-config="true" duration-ms="894" started-at="2022-05-13T17:28:53 IST" finished-at="2022-05-13T17:28:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.mohs.scripts.Recently_viewed_button2 -->
-      <class name="com.mohs.scripts.Recently_viewed_button1">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.Recently_viewed_button1@53f65459]" name="beforeClass" is-config="true" duration-ms="2763" started-at="2022-03-29T12:58:04 IST" finished-at="2022-03-29T12:58:07 IST">
+      <class name="com.mohs.scripts.Contactus">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.Contactus@1786dec2]" name="beforeClass" is-config="true" duration-ms="1983" started-at="2022-05-13T17:26:50 IST" finished-at="2022-05-13T17:26:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.Recently_viewed_button1@53f65459]" name="methodName" is-config="true" duration-ms="0" started-at="2022-03-29T12:58:07 IST" finished-at="2022-03-29T12:58:07 IST">
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.Contactus@1786dec2]" name="methodName" is-config="true" duration-ms="1" started-at="2022-05-13T17:26:52 IST" finished-at="2022-05-13T17:26:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mohs.scripts.Contactus.ContactusTestCase() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="ContactusTestCase()[pri:0, instance:com.mohs.scripts.Contactus@1786dec2]" name="ContactusTestCase" duration-ms="9643" started-at="2022-05-13T17:26:52 IST" finished-at="2022-05-13T17:27:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactusTestCase -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.Contactus@1786dec2]" name="afterClass" is-config="true" duration-ms="1025" started-at="2022-05-13T17:27:02 IST" finished-at="2022-05-13T17:27:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.mohs.scripts.Contactus -->
+      <class name="com.mohs.scripts.Recently_viewed_button1">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.Recently_viewed_button1@3712b94]" name="beforeClass" is-config="true" duration-ms="2014" started-at="2022-05-13T17:28:18 IST" finished-at="2022-05-13T17:28:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.Recently_viewed_button1@3712b94]" name="methodName" is-config="true" duration-ms="1" started-at="2022-05-13T17:28:20 IST" finished-at="2022-05-13T17:28:20 IST">
           <params>
             <param index="0">
               <value>
@@ -247,25 +222,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method status="PASS" signature="Recently_viewed_button1TestCase()[pri:0, instance:com.mohs.scripts.Recently_viewed_button1@53f65459]" name="Recently_viewed_button1TestCase" duration-ms="13947" started-at="2022-03-29T12:58:07 IST" finished-at="2022-03-29T12:58:21 IST">
+        <test-method status="PASS" signature="Recently_viewed_button1TestCase()[pri:0, instance:com.mohs.scripts.Recently_viewed_button1@3712b94]" name="Recently_viewed_button1TestCase" duration-ms="14675" started-at="2022-05-13T17:28:20 IST" finished-at="2022-05-13T17:28:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Recently_viewed_button1TestCase -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.Recently_viewed_button1@53f65459]" name="afterClass" is-config="true" duration-ms="829" started-at="2022-03-29T12:58:21 IST" finished-at="2022-03-29T12:58:22 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.Recently_viewed_button1@3712b94]" name="afterClass" is-config="true" duration-ms="838" started-at="2022-05-13T17:28:34 IST" finished-at="2022-05-13T17:28:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.mohs.scripts.Recently_viewed_button1 -->
       <class name="com.mohs.scripts.SubscribeToYoutube">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.SubscribeToYoutube@4b1c1ea0]" name="beforeClass" is-config="true" duration-ms="2882" started-at="2022-03-29T12:59:39 IST" finished-at="2022-03-29T12:59:42 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.SubscribeToYoutube@1b68ddbd]" name="beforeClass" is-config="true" duration-ms="4114" started-at="2022-05-13T17:29:33 IST" finished-at="2022-05-13T17:29:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="SubscribeToYoutubeTestCase()[pri:0, instance:com.mohs.scripts.SubscribeToYoutube@4b1c1ea0]" name="SubscribeToYoutubeTestCase" duration-ms="18048" started-at="2022-03-29T12:59:42 IST" finished-at="2022-03-29T13:00:00 IST">
+        <test-method status="PASS" signature="SubscribeToYoutubeTestCase()[pri:0, instance:com.mohs.scripts.SubscribeToYoutube@1b68ddbd]" name="SubscribeToYoutubeTestCase" duration-ms="10678" started-at="2022-05-13T17:29:37 IST" finished-at="2022-05-13T17:29:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SubscribeToYoutubeTestCase -->
-        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.SubscribeToYoutube@4b1c1ea0]" name="methodName" is-config="true" duration-ms="0" started-at="2022-03-29T12:59:42 IST" finished-at="2022-03-29T12:59:42 IST">
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.SubscribeToYoutube@1b68ddbd]" name="methodName" is-config="true" duration-ms="0" started-at="2022-05-13T17:29:37 IST" finished-at="2022-05-13T17:29:37 IST">
           <params>
             <param index="0">
               <value>
@@ -276,17 +251,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.SubscribeToYoutube@4b1c1ea0]" name="afterClass" is-config="true" duration-ms="1563" started-at="2022-03-29T13:00:00 IST" finished-at="2022-03-29T13:00:01 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.SubscribeToYoutube@1b68ddbd]" name="afterClass" is-config="true" duration-ms="1580" started-at="2022-05-13T17:29:48 IST" finished-at="2022-05-13T17:29:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.mohs.scripts.SubscribeToYoutube -->
       <class name="com.mohs.scripts.LoginPage">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.LoginPage@167fdd33]" name="beforeClass" is-config="true" duration-ms="2286" started-at="2022-03-29T12:57:19 IST" finished-at="2022-03-29T12:57:22 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.LoginPage@4b1c1ea0]" name="beforeClass" is-config="true" duration-ms="1902" started-at="2022-05-13T17:27:37 IST" finished-at="2022-05-13T17:27:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.LoginPage@167fdd33]" name="methodName" is-config="true" duration-ms="1" started-at="2022-03-29T12:57:22 IST" finished-at="2022-03-29T12:57:22 IST">
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.LoginPage@4b1c1ea0]" name="methodName" is-config="true" duration-ms="1" started-at="2022-05-13T17:27:38 IST" finished-at="2022-05-13T17:27:38 IST">
           <params>
             <param index="0">
               <value>
@@ -297,21 +272,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method status="PASS" signature="LoginPageTestCase()[pri:0, instance:com.mohs.scripts.LoginPage@167fdd33]" name="LoginPageTestCase" duration-ms="11515" started-at="2022-03-29T12:57:22 IST" finished-at="2022-03-29T12:57:33 IST">
+        <test-method status="PASS" signature="LoginPageTestCase()[pri:0, instance:com.mohs.scripts.LoginPage@4b1c1ea0]" name="LoginPageTestCase" duration-ms="10472" started-at="2022-05-13T17:27:38 IST" finished-at="2022-05-13T17:27:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPageTestCase -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.LoginPage@167fdd33]" name="afterClass" is-config="true" duration-ms="810" started-at="2022-03-29T12:57:33 IST" finished-at="2022-03-29T12:57:34 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.LoginPage@4b1c1ea0]" name="afterClass" is-config="true" duration-ms="861" started-at="2022-05-13T17:27:49 IST" finished-at="2022-05-13T17:27:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.mohs.scripts.LoginPage -->
       <class name="com.mohs.scripts.InvalidLogIn">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.InvalidLogIn@1d29cf23]" name="beforeClass" is-config="true" duration-ms="1742" started-at="2022-03-29T12:56:44 IST" finished-at="2022-03-29T12:56:46 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.InvalidLogIn@15d0c81b]" name="beforeClass" is-config="true" duration-ms="2282" started-at="2022-05-13T17:27:03 IST" finished-at="2022-05-13T17:27:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.InvalidLogIn@1d29cf23]" name="methodName" is-config="true" duration-ms="0" started-at="2022-03-29T12:56:46 IST" finished-at="2022-03-29T12:56:46 IST">
+        <test-method status="PASS" signature="InvalidLogInTestCase()[pri:0, instance:com.mohs.scripts.InvalidLogIn@15d0c81b]" name="InvalidLogInTestCase" duration-ms="9364" started-at="2022-05-13T17:27:05 IST" finished-at="2022-05-13T17:27:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogInTestCase -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.InvalidLogIn@15d0c81b]" name="methodName" is-config="true" duration-ms="0" started-at="2022-05-13T17:27:05 IST" finished-at="2022-05-13T17:27:05 IST">
           <params>
             <param index="0">
               <value>
@@ -322,25 +301,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method status="PASS" signature="InvalidLogInTestCase()[pri:0, instance:com.mohs.scripts.InvalidLogIn@1d29cf23]" name="InvalidLogInTestCase" duration-ms="10281" started-at="2022-03-29T12:56:46 IST" finished-at="2022-03-29T12:56:56 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InvalidLogInTestCase -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.InvalidLogIn@1d29cf23]" name="afterClass" is-config="true" duration-ms="775" started-at="2022-03-29T12:56:56 IST" finished-at="2022-03-29T12:56:57 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.InvalidLogIn@15d0c81b]" name="afterClass" is-config="true" duration-ms="829" started-at="2022-05-13T17:27:14 IST" finished-at="2022-05-13T17:27:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.mohs.scripts.InvalidLogIn -->
       <class name="com.mohs.scripts.AddProductToWishList">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.AddProductToWishList@56aac163]" name="beforeClass" is-config="true" duration-ms="16190" started-at="2022-03-29T12:54:33 IST" finished-at="2022-03-29T12:54:49 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.AddProductToWishList@1e965684]" name="beforeClass" is-config="true" duration-ms="2005" started-at="2022-05-13T17:25:39 IST" finished-at="2022-05-13T17:25:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="AddProductToWishListTestCase()[pri:0, instance:com.mohs.scripts.AddProductToWishList@56aac163]" name="AddProductToWishListTestCase" duration-ms="13597" started-at="2022-03-29T12:54:49 IST" finished-at="2022-03-29T12:55:03 IST">
+        <test-method status="PASS" signature="AddProductToWishListTestCase()[pri:0, instance:com.mohs.scripts.AddProductToWishList@1e965684]" name="AddProductToWishListTestCase" duration-ms="11718" started-at="2022-05-13T17:25:41 IST" finished-at="2022-05-13T17:25:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddProductToWishListTestCase -->
-        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.AddProductToWishList@56aac163]" name="methodName" is-config="true" duration-ms="0" started-at="2022-03-29T12:54:49 IST" finished-at="2022-03-29T12:54:49 IST">
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.AddProductToWishList@1e965684]" name="methodName" is-config="true" duration-ms="0" started-at="2022-05-13T17:25:41 IST" finished-at="2022-05-13T17:25:41 IST">
           <params>
             <param index="0">
               <value>
@@ -351,17 +326,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.AddProductToWishList@56aac163]" name="afterClass" is-config="true" duration-ms="1300" started-at="2022-03-29T12:55:03 IST" finished-at="2022-03-29T12:55:04 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.AddProductToWishList@1e965684]" name="afterClass" is-config="true" duration-ms="1028" started-at="2022-05-13T17:25:53 IST" finished-at="2022-05-13T17:25:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.mohs.scripts.AddProductToWishList -->
       <class name="com.mohs.scripts.ShippingandReturns">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.ShippingandReturns@74650e52]" name="beforeClass" is-config="true" duration-ms="3087" started-at="2022-03-29T12:58:54 IST" finished-at="2022-03-29T12:58:57 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.ShippingandReturns@33f88ab]" name="beforeClass" is-config="true" duration-ms="2053" started-at="2022-05-13T17:28:54 IST" finished-at="2022-05-13T17:28:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.ShippingandReturns@74650e52]" name="methodName" is-config="true" duration-ms="0" started-at="2022-03-29T12:58:57 IST" finished-at="2022-03-29T12:58:57 IST">
+        <test-method status="PASS" signature="ShippingandReturnsTestCase()[pri:0, instance:com.mohs.scripts.ShippingandReturns@33f88ab]" name="ShippingandReturnsTestCase" duration-ms="8228" started-at="2022-05-13T17:28:56 IST" finished-at="2022-05-13T17:29:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShippingandReturnsTestCase -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.ShippingandReturns@33f88ab]" name="methodName" is-config="true" duration-ms="0" started-at="2022-05-13T17:28:56 IST" finished-at="2022-05-13T17:28:56 IST">
           <params>
             <param index="0">
               <value>
@@ -372,25 +351,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method status="PASS" signature="ShippingandReturnsTestCase()[pri:0, instance:com.mohs.scripts.ShippingandReturns@74650e52]" name="ShippingandReturnsTestCase" duration-ms="9232" started-at="2022-03-29T12:58:57 IST" finished-at="2022-03-29T12:59:06 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ShippingandReturnsTestCase -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.ShippingandReturns@74650e52]" name="afterClass" is-config="true" duration-ms="757" started-at="2022-03-29T12:59:06 IST" finished-at="2022-03-29T12:59:07 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.ShippingandReturns@33f88ab]" name="afterClass" is-config="true" duration-ms="1156" started-at="2022-05-13T17:29:04 IST" finished-at="2022-05-13T17:29:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.mohs.scripts.ShippingandReturns -->
       <class name="com.mohs.scripts.CompareList2">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.CompareList2@396f6598]" name="beforeClass" is-config="true" duration-ms="3193" started-at="2022-03-29T12:56:07 IST" finished-at="2022-03-29T12:56:10 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.CompareList2@3b088d51]" name="beforeClass" is-config="true" duration-ms="1856" started-at="2022-05-13T17:26:29 IST" finished-at="2022-05-13T17:26:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="CompareList2TestCase()[pri:0, instance:com.mohs.scripts.CompareList2@396f6598]" name="CompareList2TestCase" duration-ms="18422" started-at="2022-03-29T12:56:10 IST" finished-at="2022-03-29T12:56:29 IST">
+        <test-method status="PASS" signature="CompareList2TestCase()[pri:0, instance:com.mohs.scripts.CompareList2@3b088d51]" name="CompareList2TestCase" duration-ms="17914" started-at="2022-05-13T17:26:31 IST" finished-at="2022-05-13T17:26:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CompareList2TestCase -->
-        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.CompareList2@396f6598]" name="methodName" is-config="true" duration-ms="0" started-at="2022-03-29T12:56:10 IST" finished-at="2022-03-29T12:56:10 IST">
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.CompareList2@3b088d51]" name="methodName" is-config="true" duration-ms="0" started-at="2022-05-13T17:26:31 IST" finished-at="2022-05-13T17:26:31 IST">
           <params>
             <param index="0">
               <value>
@@ -401,17 +376,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.CompareList2@396f6598]" name="afterClass" is-config="true" duration-ms="799" started-at="2022-03-29T12:56:29 IST" finished-at="2022-03-29T12:56:29 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.CompareList2@3b088d51]" name="afterClass" is-config="true" duration-ms="1079" started-at="2022-05-13T17:26:49 IST" finished-at="2022-05-13T17:26:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.mohs.scripts.CompareList2 -->
       <class name="com.mohs.scripts.CompareList1">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.CompareList1@5a1c0542]" name="beforeClass" is-config="true" duration-ms="2962" started-at="2022-03-29T12:55:34 IST" finished-at="2022-03-29T12:55:37 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.CompareList1@53f65459]" name="beforeClass" is-config="true" duration-ms="2368" started-at="2022-05-13T17:26:09 IST" finished-at="2022-05-13T17:26:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.CompareList1@5a1c0542]" name="methodName" is-config="true" duration-ms="1" started-at="2022-03-29T12:55:37 IST" finished-at="2022-03-29T12:55:37 IST">
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.CompareList1@53f65459]" name="methodName" is-config="true" duration-ms="2" started-at="2022-05-13T17:26:11 IST" finished-at="2022-05-13T17:26:11 IST">
           <params>
             <param index="0">
               <value>
@@ -422,25 +397,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method status="PASS" signature="CompareList1TestCase()[pri:0, instance:com.mohs.scripts.CompareList1@5a1c0542]" name="CompareList1TestCase" duration-ms="29675" started-at="2022-03-29T12:55:37 IST" finished-at="2022-03-29T12:56:06 IST">
+        <test-method status="PASS" signature="CompareList1TestCase()[pri:0, instance:com.mohs.scripts.CompareList1@53f65459]" name="CompareList1TestCase" duration-ms="17343" started-at="2022-05-13T17:26:11 IST" finished-at="2022-05-13T17:26:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CompareList1TestCase -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.CompareList1@5a1c0542]" name="afterClass" is-config="true" duration-ms="754" started-at="2022-03-29T12:56:06 IST" finished-at="2022-03-29T12:56:07 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.CompareList1@53f65459]" name="afterClass" is-config="true" duration-ms="827" started-at="2022-05-13T17:26:28 IST" finished-at="2022-05-13T17:26:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.mohs.scripts.CompareList1 -->
       <class name="com.mohs.scripts.AddPhProductToCart">
-        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.mohs.scripts.AddPhProductToCart@23faf8f2]" name="generateReport" is-config="true" duration-ms="381" started-at="2022-03-29T12:53:13 IST" finished-at="2022-03-29T12:53:13 IST">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.mohs.scripts.AddPhProductToCart@1f7030a6]" name="generateReport" is-config="true" duration-ms="545" started-at="2022-05-13T17:25:04 IST" finished-at="2022-05-13T17:25:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.AddPhProductToCart@23faf8f2]" name="beforeClass" is-config="true" duration-ms="23136" started-at="2022-03-29T12:53:13 IST" finished-at="2022-03-29T12:53:36 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.AddPhProductToCart@1f7030a6]" name="beforeClass" is-config="true" duration-ms="4292" started-at="2022-05-13T17:25:04 IST" finished-at="2022-05-13T17:25:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.AddPhProductToCart@23faf8f2]" name="methodName" is-config="true" duration-ms="205" started-at="2022-03-29T12:53:36 IST" finished-at="2022-03-29T12:53:37 IST">
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.AddPhProductToCart@1f7030a6]" name="methodName" is-config="true" duration-ms="12" started-at="2022-05-13T17:25:09 IST" finished-at="2022-05-13T17:25:09 IST">
           <params>
             <param index="0">
               <value>
@@ -451,25 +426,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method status="PASS" signature="AddPhProductToCartTestCase()[pri:0, instance:com.mohs.scripts.AddPhProductToCart@23faf8f2]" name="AddPhProductToCartTestCase" duration-ms="20805" started-at="2022-03-29T12:53:37 IST" finished-at="2022-03-29T12:53:57 IST">
+        <test-method status="PASS" signature="AddPhProductToCartTestCase()[pri:0, instance:com.mohs.scripts.AddPhProductToCart@1f7030a6]" name="AddPhProductToCartTestCase" duration-ms="14342" started-at="2022-05-13T17:25:09 IST" finished-at="2022-05-13T17:25:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddPhProductToCartTestCase -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.AddPhProductToCart@23faf8f2]" name="afterClass" is-config="true" duration-ms="3828" started-at="2022-03-29T12:53:57 IST" finished-at="2022-03-29T12:54:01 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.AddPhProductToCart@1f7030a6]" name="afterClass" is-config="true" duration-ms="1480" started-at="2022-05-13T17:25:23 IST" finished-at="2022-05-13T17:25:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.mohs.scripts.AddPhProductToCart -->
       <class name="com.mohs.scripts.Newsbtn">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.Newsbtn@4d95d2a2]" name="beforeClass" is-config="true" duration-ms="2299" started-at="2022-03-29T12:57:49 IST" finished-at="2022-03-29T12:57:51 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mohs.scripts.Newsbtn@4d41cee]" name="beforeClass" is-config="true" duration-ms="2214" started-at="2022-05-13T17:28:03 IST" finished-at="2022-05-13T17:28:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="NewsbtnTestCase()[pri:0, instance:com.mohs.scripts.Newsbtn@4d95d2a2]" name="NewsbtnTestCase" duration-ms="11947" started-at="2022-03-29T12:57:51 IST" finished-at="2022-03-29T12:58:03 IST">
+        <test-method status="PASS" signature="NewsbtnTestCase()[pri:0, instance:com.mohs.scripts.Newsbtn@4d41cee]" name="NewsbtnTestCase" duration-ms="11026" started-at="2022-05-13T17:28:06 IST" finished-at="2022-05-13T17:28:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NewsbtnTestCase -->
-        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.Newsbtn@4d95d2a2]" name="methodName" is-config="true" duration-ms="0" started-at="2022-03-29T12:57:51 IST" finished-at="2022-03-29T12:57:51 IST">
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.Newsbtn@4d41cee]" name="methodName" is-config="true" duration-ms="0" started-at="2022-05-13T17:28:06 IST" finished-at="2022-05-13T17:28:06 IST">
           <params>
             <param index="0">
               <value>
@@ -480,7 +455,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.Newsbtn@4d95d2a2]" name="afterClass" is-config="true" duration-ms="747" started-at="2022-03-29T12:58:03 IST" finished-at="2022-03-29T12:58:04 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mohs.scripts.Newsbtn@4d41cee]" name="afterClass" is-config="true" duration-ms="999" started-at="2022-05-13T17:28:17 IST" finished-at="2022-05-13T17:28:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

@@ -74,7 +74,7 @@ public class CartFunctions {
 		}
 		
 		// Registration process
-		public void Register(String Firstname, String Lastname, String Email, String Pwd, String ConfirmPwd) throws Exception
+		/*public void Register(String Firstname, String Lastname, String Email, String Pwd, String ConfirmPwd) throws Exception
 		{
 			StartBrowser.childTest = StartBrowser.parentTest.createNode("Register in DemoWeb shop");
 			aDriver.navigateToApplication("http://demowebshop.tricentis.com/");
@@ -87,7 +87,7 @@ public class CartFunctions {
 			aDriver.type(HomePage.txtConfirmpassword, ConfirmPwd, "confirm password text box");
 			aDriver.click(HomePage.btnRegister, "Register button");
 			aDriver.click(HomePage.btnContinue, "Continue button");
-		}
+		}*/
 		
 	//Login process
 		public void logIn(String email, String pwd) throws Exception
@@ -146,11 +146,8 @@ public class CartFunctions {
 			aDriver.click(HomePage.btnSubscribe, "subscribe button");
 			
 		}
-<<<<<<< HEAD
+
 		//go to sitemap
-=======
-	//go to sitemap
->>>>>>> 6df1a4ea30de7cc36bb085391a3cd15ad049e6be
 		public void siteMap(String search) throws Exception
 		{
 		StartBrowser.childTest = StartBrowser.parentTest.createNode("click sitemap and search for a prod");
@@ -167,7 +164,7 @@ public class CartFunctions {
 		    String prodNamejeans=aDriver.getText(ProductPage.textprod, "Name of the product");
 		    return prodNamejeans;
 		}
-<<<<<<< HEAD
+
 		//go to shipping & returns
 		public void shippingAndReturns() throws Exception
 		{
@@ -256,9 +253,7 @@ public class CartFunctions {
 			return textofOrdercnfrmtn;
 		}
 		
-=======
->>>>>>> 6df1a4ea30de7cc36bb085391a3cd15ad049e6be
-		
+
 }		
 
 

@@ -1,40 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-04T12:19:08 IST" name="Default suite" finished-at="2022-04-04T12:19:55 IST" duration-ms="47435">
+  <suite started-at="2022-07-14T17:27:09 IST" name="Mohs10" finished-at="2022-07-14T17:27:44 IST" duration-ms="34365">
     <groups>
     </groups>
-    <test started-at="2022-04-04T12:19:08 IST" name="Default test" finished-at="2022-04-04T12:19:55 IST" duration-ms="47435">
-      <class name="com.mohs.scripts.LoginPage">
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.mohs.scripts.LoginPage@bd4dc25]" started-at="2022-04-04T12:19:08 IST" name="generateReport" finished-at="2022-04-04T12:19:09 IST" duration-ms="1013" status="PASS">
+    <test started-at="2022-07-14T17:27:09 IST" name="Mohs10 Release1" finished-at="2022-07-14T17:27:44 IST" duration-ms="34339">
+      <class name="com.mohs.scripts.LoginAndOrder">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.mohs.scripts.LoginAndOrder@4d0f2471]" started-at="2022-07-14T17:27:09 IST" name="generateReport" finished-at="2022-07-14T17:27:10 IST" duration-ms="438" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.mohs.scripts.LoginPage@bd4dc25]" started-at="2022-04-04T12:19:09 IST" name="beforeClass" finished-at="2022-04-04T12:19:42 IST" duration-ms="32918" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.mohs.scripts.LoginAndOrder@4d0f2471]" started-at="2022-07-14T17:27:10 IST" name="beforeClass" finished-at="2022-07-14T17:27:13 IST" duration-ms="3025" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.LoginPage@bd4dc25]" started-at="2022-04-04T12:19:42 IST" name="methodName" finished-at="2022-04-04T12:19:42 IST" duration-ms="25" status="PASS">
+        <test-method is-config="true" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.LoginAndOrder@4d0f2471]" started-at="2022-07-14T17:27:13 IST" name="methodName" finished-at="2022-07-14T17:27:13 IST" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mohs.scripts.LoginPage.LoginPageTestCase() throws java.lang.Exception]]>
+                <![CDATA[public void com.mohs.scripts.LoginAndOrder.LoginAndOrderTestCase() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method signature="LoginPageTestCase()[pri:0, instance:com.mohs.scripts.LoginPage@bd4dc25]" started-at="2022-04-04T12:19:42 IST" name="LoginPageTestCase" finished-at="2022-04-04T12:19:54 IST" duration-ms="11940" status="PASS">
+        <test-method signature="LoginAndOrderTestCase()[pri:0, instance:com.mohs.scripts.LoginAndOrder@4d0f2471]" started-at="2022-07-14T17:27:13 IST" name="LoginAndOrderTestCase" finished-at="2022-07-14T17:27:32 IST" duration-ms="18791" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginPageTestCase -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.mohs.scripts.LoginPage@bd4dc25]" started-at="2022-04-04T12:19:54 IST" name="afterClass" finished-at="2022-04-04T12:19:55 IST" duration-ms="1472" status="PASS">
+        </test-method> <!-- LoginAndOrderTestCase -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.mohs.scripts.LoginAndOrder@4d0f2471]" started-at="2022-07-14T17:27:32 IST" name="afterClass" finished-at="2022-07-14T17:27:32 IST" duration-ms="712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.mohs.scripts.LoginPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.mohs.scripts.LoginAndOrder -->
+      <class name="com.mohs.scripts.ShoppingCart">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.mohs.scripts.ShoppingCart@4229bb3f]" started-at="2022-07-14T17:27:32 IST" name="beforeClass" finished-at="2022-07-14T17:27:34 IST" duration-ms="1798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.mohs.scripts.ShoppingCart@4229bb3f]" started-at="2022-07-14T17:27:34 IST" name="methodName" finished-at="2022-07-14T17:27:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mohs.scripts.ShoppingCart.ShoppingCartTestCase() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method signature="ShoppingCartTestCase()[pri:0, instance:com.mohs.scripts.ShoppingCart@4229bb3f]" started-at="2022-07-14T17:27:34 IST" name="ShoppingCartTestCase" finished-at="2022-07-14T17:27:43 IST" duration-ms="9218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoppingCartTestCase -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.mohs.scripts.ShoppingCart@4229bb3f]" started-at="2022-07-14T17:27:43 IST" name="afterClass" finished-at="2022-07-14T17:27:44 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.mohs.scripts.ShoppingCart -->
+    </test> <!-- Mohs10 Release1 -->
+    <test started-at="2022-07-14T17:27:44 IST" name="Test" finished-at="2022-07-14T17:27:44 IST" duration-ms="1">
+    </test> <!-- Test -->
+  </suite> <!-- Mohs10 -->
 </testng-results>

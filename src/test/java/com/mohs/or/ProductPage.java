@@ -15,11 +15,8 @@ public class ProductPage {
 	public static By lnkWishList = By.xpath("//a[normalize-space()='wishlist']");
 	public static By imgprod = By.xpath("//img[@title='Show details for Blue Jeans']");
 	public static By textprod = By.xpath("//h1[@itemprop='name']");
-<<<<<<< HEAD
 	public static By imgPhCover = By.xpath("//img[@title='Show details for Phone Cover']");
 	
-=======
->>>>>>> 6df1a4ea30de7cc36bb085391a3cd15ad049e6be
 	
 }
 

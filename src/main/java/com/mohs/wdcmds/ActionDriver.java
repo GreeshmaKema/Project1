@@ -27,7 +27,7 @@ public class ActionDriver {
 	 * Used to navigate to any application
 	 * @param url -- URL of application
 	 */
-	public void navigateToApplication(String url)
+	public void navigateToApplication(String url) 
 	{
 		try {
 			driver.get(url);
